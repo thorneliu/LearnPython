@@ -51,3 +51,11 @@ class oneCluster:
 
 if __name__ == "__main__":
     app.run()
+
+
+
+# Get the status
+# curl http://192.168.255.20:8080/clusters/1
+
+# Post the status
+# curl -X POST -d 'BACKUP' http://192.168.255.20:8080/clusters/1
